@@ -14,8 +14,8 @@ header {
 }
 
 .img-logo {
-  padding-top: 0.5%;
-  height: 18vh;
+  padding-top: 2%;
+  height: 20vh;
 }
 
 .header-content {
@@ -27,15 +27,15 @@ header {
 .h1-header{
   font-family: script MT;
   color:#380a0a;
+  font-size:43px;
 }
 
 header nav a {
-
   color: #5e7ead;
   font-family:'Arial Narrow';
   margin: 0 15px;
 }
- 
+
   header nav a:hover {
     text-decoration: underline;
   }
@@ -144,3 +144,27 @@ header nav a {
     height: 80px;
     margin-bottom: 10px;
   }
+
+  .footer{
+    background-color: #003c99;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+  }
+   
+  .footer-container{
+    max-width: 1200px;
+    margin: 0 auto
+  }
+   
+  .social-icons img{
+   
+    width: 30px;
+    height: 30px;
+    margin: 0 10 px;
+  }
+   
+  .footer-links {
+    margin-top: 10px;
+  }
+   
