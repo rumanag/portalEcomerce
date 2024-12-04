@@ -1,22 +1,17 @@
 /* General */
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    line-height: 1.6;
-  }
- 
-  h2, h3 {
-    color: #0056d6;
-    text-align: center;
-  }
- 
-  p {
-    margin-bottom: 15px;
-    text-align: center;
-  }
- 
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+h2, h3 {
+  color: #0056d6;
+  text-align: center;
+}
+
   /* Header */
   .header {
     background: #003c99;
@@ -37,13 +32,13 @@ body {
   .header nav a:hover {
     text-decoration: underline;
   }
- 
-  /* Cart Section */
-  .cart {
+  
+   /* Cart Section */
+   .cart {
     padding: 40px 20px;
     background: #f9f9f9;
   }
- 
+  
   .cart-container {
     display: flex;
     justify-content: space-between;
@@ -52,7 +47,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
   }
- 
+  
   /* Items en el carrito */
   .cart-items {
     flex: 2;
@@ -63,7 +58,7 @@ body {
     overflow-y: auto;
     max-height: 400px;
   }
- 
+  
   .cart-items .cart-item {
     display: flex;
     justify-content: space-between;
@@ -72,18 +67,18 @@ body {
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
   }
- 
+  
   .cart-items img {
     width: 60px;
     height: 60px;
     border-radius: 5px;
     margin-right: 15px;
   }
- 
+  
   .cart-items .item-info {
     flex: 1;
   }
- 
+  
   .cart-items button {
     background: #d9534f;
     color: white;
@@ -93,11 +88,11 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
- 
+  
   .cart-items button:hover {
     background: #c9302c;
   }
- 
+  
   /* Resumen del carrito */
   .cart-summary {
     flex: 1;
@@ -107,12 +102,12 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
- 
+  
   .cart-summary p {
     font-size: 1.2rem;
     margin-bottom: 20px;
   }
- 
+  
   .cart-summary .btn {
     background: #0056d6;
     color: white;
@@ -122,10 +117,11 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
- 
+  
   .cart-summary .btn:hover {
     background: #003c99;
   }
+
  
   /* Footer */
   .footer {
