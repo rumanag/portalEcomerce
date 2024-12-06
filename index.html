@@ -1,124 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOOTCAMP TIENDA</title>
-    <link rel = "stylesheet" href ="./assets/css/styles.css">
-</head>
 
-<body>
-    <header class="header">
-        <img class =" img-logo" src="./assets/images/clotheStoreLogo.jpg" alt="Logo">
-        <div class="header-content">
-            
-            
-            <h1 class="h1-header">Clothes&reg; tu tienda de ropa !!</h1>
-            
-            <nav>
-                <a href= "index.html">Inicio</a>
-                <a href= "productos.html">Productos</a>
-                <a href= "carrito.html">Carrito</a>
-                <a href= "acercade.html">Nosotros</a>
-                <a href= "contacto.html">Contacto</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BOOTCAMP TIENDA</title>
+        <link rel = "stylesheet" href ="./assets/css/styles.css">
+    </head>
 
-            </nav>
-        </div>
-    </header>
- 
-    <section class = "hero">
+    <body>
         
-        <div class ="hero-content">
-           
-            <h1> Bienvenidos a Bootcamp Tienda</h1>
-            <p>Descubre productos exclusivos y ofertas únicas</p>
-            <a href ="#productos" class="btn-hero-btn">Ver productos</a>
-        </div>
-       
-        <div class ="hero-bg"></div>    
-    </section>
- 
-    <section class = "products" id = "productos">
-       
-        <h2>Nuestros Productos</h2>
-        
-        <div class="product-list">
+        <header class="header">
+            <img class =" img-logo" src="./assets/images/clotheStoreLogo.jpg" alt="Logo">
+            <div class="header-content">
+                 
+                <h1 class="h1-header">Clothes&reg; tu tienda de ropa !!</h1>
+                
+                <nav>
+                    <a href= "index.html">Inicio</a>
+                    <a href= "productos.html">Productos</a>
+                    <a href= "carrito.html">Carrito</a>
+                    <a href= "acercade.html">Nosotros</a>
+                    <a href= "contacto.html">Contacto</a>
+
+                </nav>
+            </div>
+        </header>
+    
+        <section class = "hero">
             
-            <div class = "product">
+            <div class ="hero-content">
+            
+                <h3>Bienvenidos a <span class="h3-hero">Clothes&reg</span><span id="h3-hero"></span> tu tienda de ropa ... para todas las temporadas!!!!</h1>
+                              
+                <p>Descubre Productos Exclusivos y Ofertas Únicas</p>
+                
+            <div class ="hero-bg"></div>    
+        </section>
+    
+        <section class = "products" id = "productos">
+        
+            <h2>Nuestras lineas de producto a tu disposición ...</h2>
+            
+            <div class="product-list">
+                
+                <div class = "product">
+                
+                    <img src="./assets/images/clotheStore5.jpg" alt="Producto 1">           
+                    <h3>Para Caballero</h3>
+                    <p>pantalones, chaqueteas, camisas , en diferentes materiales:linos, cueros algodón.</p>
+                    <p class = "price"></p>
+                    <a class="hero-btn" href ="productos.html" >Ir a productos</a>
+              
+                </div>
+                
+                <div class = "product">
+
+                    <img src="./assets/images/clotheStore2.jpg" alt="Producto 2">
+                    <h3>Para Dama </h3>
+                    <p>Todo para cada una de las temporadas del año: Faldas, blusas, slacks, pashminas, ... y mucho más</p>
+                    <p class = "price"></p>
+                    <a class="hero-btn" href ="productos.html" >Ir a productos</a>
+                </div>
                
-                <img src="./assets/images/clotheStore5.jpg" alt="Producto 1">           
-                <h3>Producto 1 </h3>
-                <p>Descripción breve del producto 1</p>
-                <p class = "price">$10.00</p>
-                <button class="add-to-cart" data-name="Producto 1" data-price="10"> Añadir al carrito</button>
-            </div>
- 
-            <div class = "product">
+                <div class = "product">
 
-                <img src="./assets/images/clotheStore1.jpg" alt="Producto 2">
-                <h3>Producto 2 </h3>
-                <p>Descripción breve del producto 2</p>
-                <p class = "price">$20.00</p>
-                <button class="add-to-cart" data-name="Producto 2" data-price="20"> Añadir al carrito</button>
+                    <img src="./assets/images/clotheStore1.jpg" alt="Producto 3">
+                    <h3>Accesorios para Dama y Caballero </h3>
+                    <p>Sombreros, zapatos, carteras, bisuteria de fantasía</p>
+                    <p class = "price"></p>
+                    <a class="hero-btn" href ="productos.html" >Ir a productos</a>
+                </div>
             </div>
- 
-            <div class = "product">
-
-                <img src="./assets/images/clotheStore2.jpg" alt="Producto 3">
-                <h3>Producto 3 </h3>
-                <p>Descripción breve del producto 3</p>
-                <p class = "price">$30.00</p>
-                <button class="add-to-cart" data-name="Producto 3" data-price="30"> Añadir al carrito</button>
-            </div>
-        </div>
-    </section>
-    
-    <section class="features">
-        <h2>Por qué elegirnos</h2>          
+        </section>
         
-        <div class="feature-list">
-            <img src="./assets/images/clotheStore4.jpg" alt="Envío rapido">
-            <h3>Envío rapido</h3>
-            <p>recibe tus productos en tiempo récord.</p>
-        </div>
- 
-        <div class="feature-list">
-            <img src="./assets/images/clotheStore6.jpg" alt="Alta calidad">
-            <h3>Alta calidad</h3>
-            <p>Solo seleccionamos productos de alta calidad</p>
-        </div>
- 
-        <div class="feature-list">
-            <img src="./assets/images/clotheStore10.jpg" alt="Ofertas">
-            <h3>Ofertas</h3>
-            <p>Aprovecha las ofertas exclusivas</p>
-        </div>
-    </section>
-   
-   <footer class="footer">
-    <div class = "footer-container">
-        <p>2024 BootCamp Tienda. todos los derechos reservados </p>
-      
-        <div class = "social-iconos">
-            <a href ="#"><img src = "./assets/images/face.jpg" alt = "facebook"></a>
-            <a href ="#"><img src = "./assets/images/equis.jpg" alt = "instagram"></a>
-            <a href ="#"><img src = "./assets/images/ins.jpg" alt = "whatsapp"></a>
-        </div>
+        <section class="features" id="feature1">
+            
+            <h2>Por qué elegirnos</h2>          
+            
+            <div class="feature-list" >
+                <div class="feature">
+                    <img src="./assets/images//ClothesFastDelivery.png" alt="Envío rapido">
+                    <h3>Envío rápido</h3>
+                    <p>Recibe tus productos en tiempo récord.</p>
+                </div>
     
-        <div class = "footer-links">
+            <div class="feature-list"  id="feature2">
+                <div class="feature">
+                    <img src="./assets/images/ClothesAltaCalidad.png" alt="Alta calidad" >
+                    <h3>Alta calidad</h3>
+                    <p>Solo seleccionamos productos de alta calidad</p>
+                </div>
+            </div>
 
-        <a href = "acedade.html">Acerca de </a>
-        <a href = "contacto.html">contacto</a>
-        <a href = "producto.html">producto </a>
-        <a href = "index.html">inicio</a>
+            <div class="feature-list"  id="feature3">
+                <div class="feature">
+                    <img src="./assets/images/ClothesPromociones.png" alt="Alta calidad" >
+                    <h3>Ofertas Exclusivas</h3>
+                    <p>¡Programamos ofertas de locura cada fin y comienzo de temporada!</p>
+                </div>
+            </div>
+        </section>
+    
+        <footer class="footer">
+            
+            <div class="footer-content"></div>
+                
+                <nav>
+                    <img class =" img-logo-footer" src="./assets/images/clotheStoreLogo.jpg" alt="Logo">
+                    <a href= "index.html">Inicio</a>
+                    <a href= "productos.html">Productos</a>
+                    <a href= "carrito.html">Carrito</a>
+                    <a href= "acercade.html">Nosotros</a>
+                    <a href= "contacto.html">Contacto</a>
+                </nav>
+            </div>
+
+            <div class="footer-end" >
+                
+                <p ><span class= "p-footer">Clothes</span><span id="p-footer">, todos los derechos reservados</span></p></>
+                
+                <section class="footer-redes">
+                    <p>Estamos en las Redes Sociales: </p> 
+                    <img class ="logo-media-footer" src="./assets/images/threSocialMediaLogos.png" alt="Logo">
+                </section>
+                
+                <p class="p-footer1">Dirección: Carrera 51b 90-81, Barranquilla, Colombia, SouthAmérica.  Email info@clothes.com.co. Whatsapp: +(57-1)302 723892 </p>
+            </div>
+        </footer>
         
-    </div>
-
-    </div>
-
-
-   </footer>
-   
-</body>
-<script src="./assets/js/script.js"></script>
+        <script src = "./assets/js/script.js"></script>
+    </body>
 </html>
