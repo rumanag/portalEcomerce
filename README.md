@@ -47,4 +47,12 @@ El código fuente se encuentra en GitHub, el cual consta de los siguientes direc
 - MAIN: el cual contiene los HTML, la carpeta de ASSETS y el README.MD que esta leyendo en este momento.
 - ASSETS: Contiene las carpetas siguientes:
   * CSS: Con los style de cada uno de las html
-  * 
+  * IMG: Con las imágenes usadas en el sitio, incluída la imágen del diseño básico  de Figma, el caso de uso y el proceso.
+  * JS: Con el script para el manejo de las compras.
+
+### FIGURAS Y GRAFICOS
+
+En la carpeta de imágenes se visualiza el caso de uso y los procesos.
+
+
+*********ELABORADO POR RICARDO UMAÑA EL 6/12/2024
