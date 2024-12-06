@@ -20,17 +20,31 @@ El proyecto denominado "PortalEComerce" es el primer módulo para desarrollar es
   
 ### CRONOGRAMA DE TRABAJO Y GRUPO DE TRABAJO
 
-durante 7 semanas, cuatro horas diarias se  desarrolló del software siguiendo una metodología rápida, centrada en un trabajo diario de equipo  compuesto por el grupo  Número 170 de estudiantes del Bootcamp,  con la dirección de dos profesores y un monitor.
+durante 7 semanas, cuatro horas diarias, se  desarrolló el software siguiendo una metodología rápida, centrada en un trabajo diario de equipo  compuesto por el grupo  Número 170 de estudiantes del Bootcamp,  con la dirección de dos profesores y un monitor.
+En cada sesíon se realizaba la enseñanza y, como laboratorio, el desarrollo del código correspondiente a esa enseñanza. Se auditaba el cumplimiento de los objetivos y metas del cronograma.
 
 ### DISEÑO PREPARATORIO
 
 Paa efectos de instrucciones de diseño, se preparó en FIGMA un básico con los colores a utilizar. Las páginas tendrán un formato estandard, consistente en :
-- ENCABEZAMIENTO igual para todas las páginas del sitio, consistente en el logo de la compañía, la navegación a las páginas: Inicio, productos, carrito, nosotros, contacto.
-- CUERPO : Con el contenido perteneciente a cada página así:
-  * 
 
-En cada sesío se realizaba la enseñanza y como laboratorio, el desarrollo del código correspondiente a esa enseñanza y relativo al cumplimiento de los objetivos y metas del programa.
-figma
-back
-estructura de las paginas header footer
-diseño - facdioi
+- ENCABEZAMIENTO (HEADER) igual para todas las páginas del sitio, consistente en el logo de la compañía, la navegación a las páginas: Inicio, productos,    carrito, nosotros, contacto.
+
+- CUERPO (BODY) : Con el contenido perteneciente a cada página así:
+  * Index: presenta la imagen de las Lineas de producto y las razones por las cuales eligieron comprar en la tienda Clothes.
+  * Productos: Muestra la fotografía de cada producto, con su descripción precio. Con el botón "Añadir al carrito" , permite ingresar los productos a la      canasta de compras.
+  * Carrito: muestra los ítems que el cliente ha enviado al carrito de compras,junto con su precio y la posibilidad de eliminar alguna. LLeva el resumen      del pedido, en términos de la sumatoria en valores, de los items
+    Cuando oprime el bot+on de "procecer al pago" se direcciona a la página de agradecimiento por la compra.
+ *  Contacto: Permite registrar los datos de cliente, con un mensaje a la compañía. Por ahora la funcion del botor "Enviar" no está activa hasta que la       empresa decida cual es el correo que va a usar para este caso.
+ *  Nosotros: Presenta,. a groso modo, la historia, la misión y la visión de la empresa.
+ *  Compras: la página de compras no se encuentra en el menú de navegación porque solo se activa cuando se realiza una compra desde la página del carrito.
+
+- PIE DE PÁGINA (FOOTER) : presenta el logotipo de  Clothes, el menú de navegación, las redes sociales, la indicación de los derechos de uso y la       dirección física de la empresa. 
+
+### EL CODIGO FUENTE
+
+El código fuente se encuentra en GitHub, el cual consta de los siguientes directorios:
+
+- MAIN: el cual contiene los HTML, la carpeta de ASSETS y el README.MD que esta leyendo en este momento.
+- ASSETS: Contiene las carpetas siguientes:
+  * CSS: Con los style de cada uno de las html
+  * 
