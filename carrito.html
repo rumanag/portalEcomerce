@@ -3,59 +3,74 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CARRITO</title>
-        <link rel = "stylesheet" href ="./assets//css/carrito.css">
-
+        <title>Clothes Carrito</title>
+        <link rel="stylesheet" href="/assets/css/styleCarrito.css">
     </head>
 
     <body>
-       
-        <header class="header">
 
-            <img src="./assets/images/clotheStoreLogo.jpg" alt="Logo">
-            
+        <header class="header">
+            <img class =" img-logo" src="./assets/images/clotheStoreLogo.jpg" alt="Logo">
             <div class="header-content">
-                <h1>BOOTCAMP TIENDA</h1>
+                 
+                <h1 class="h1-header">Clothes&reg; tu tienda de ropa !!</h1>
                 
                 <nav>
-                    <a href= "index.html">INICIO</a>
-                    <a href= "productos.html">PRODUCTOS</a>
-                    <a href= "acercade.html">ACERCA DE</a>
-                    <a href= "contacto.html">CONTACTO</a>
-                    <a href= "carrito.html">CARRITO</a>
+                    <a href= "index.html">Inicio</a>
+                    <a href= "productos.html">Productos</a>
+                    <a href= "carrito.html">Carrito</a>
+                    <a href= "acercade.html">Nosotros</a>
+                    <a href= "contacto.html">Contacto</a>
                 </nav>
-            
             </div>
         </header>
+
+        <main class="cart">
             
-        <section class="cart">
-                
-            <h2>TU CARRITO</h2>
-
-            <p>Revisa los productos seleccionados antes de proceder al pago.</p>
-
+            <h2>Tu carrito</h2>
+            <p class="cart1">Revisa los productos seleccionados antes de proceder al pago.</p>
+           
             <div class ="cart-container">
-
-                <div class ="cart-items">
+        
+                <div class="cart-items">
+        
                 </div>
+                <div class="cart-summary">
+                    <h3>Resumen del pedido</h3>
+                    <p><strong>Total:</strong> $<span id="cart-total">0.00</span></p>
+                    <button class="btn proceed-to-checkout">proceder al pago</button>
+                </div>
+            </div> 
+            
+            <p class="end-cart"></p>
+        </main>
 
-
-                <p class ="Total">TOTAL: $<span id ="cart-total">0.00</span></p>
-                    <button class="btn proceed-to-checkout">proceder al pago</button><br><br>
-       
+        <footer class="footer">
+            
+            <div class="footer-content"></div>
+                
+                <nav>
+                    <img class =" img-logo-footer" src="./assets/images/clotheStoreLogo.jpg" alt="Logo">
+                    <a href= "index.html">Inicio</a>
+                    <a href= "productos.html">Productos</a>
+                    <a href= "carrito.html">Carrito</a>
+                    <a href= "acercade.html">Nosotros</a>
+                    <a href= "contacto.html">Contacto</a>
+                </nav>
             </div>
-        </section>
 
-        <footer class ="footer">
-            <p>2024 bootcamp TIENDA . todos los derechos resvados</p>
-            <div class="footer-links">   
-                <a href = "acerca.html">ACERCA DE </a>
-                <a href = "CONTACO.html">ACERCA DE </a>
-                <a href = "POLITICAS.html">ACERCA DE </a>
+            <div class="footer-end" >
+                
+                <p ><span class= "p-footer">Clothes</span><span id="p-footer">, todos los derechos reservados</span></p></>
+                
+                <section class="footer-redes">
+                    <p>Estamos en las Redes Sociales: </p> 
+                    <img class ="logo-media-footer" src="./assets/images/threSocialMediaLogos.png" alt="Logo">
+                </section>
+                
+                <p class="p-footer1">Dirección: Carrera 51b 90-81, Barranquilla, Colombia, SouthAmérica.  Email info@clothes.com.co. Whatsapp: +(57-1)302 723892 </p>
             </div>
         </footer>
-        
         <script src = "./assets/js/script.js"></script>
-
     </body>
 </html>
