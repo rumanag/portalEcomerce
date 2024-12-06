@@ -1,6 +1,6 @@
-<p align="cemter"># portalEcomerce></p>
+<p align="cemter">#portalEcomerce></p>
 
-<p align="center">## Proyecto final bootcamp  Talento Tec Caribe></p>
+<p align="center">##Proyecto final bootcamp  Talento Tec Caribe></p>
 
 ### ANTECEDENTES		
 
