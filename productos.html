@@ -1,101 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
-    <link rel ="stylesheet" href="./assets/css/styles2.css">
-</head>
-<body>
-    <header class="header">
-        
-    <div class = "header">
-            <h1> BOOT CAMP TEIENDA<</h1>
-            <nav>
-                <a href= "index.html">INICIO</a>
-                <a href= "productos.html">PRODUCTOS</a>
-                <a href= "acercade.html">ACERCA DE</a>
-                <a href= "contacto.html">CONTACTO</a>
-                <a href= "carrito.html">CARRITO</a>
-            </nav>
-        </div>
-    </header>   
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Productos</title>
+        <link rel ="stylesheet" href="./assets/css/styleproducto.css">
+    </head>
 
-    <main class= "products-page">
+    <body>
 
-        <h2>NUESTROS PRODUCTOS</h2>
+        <header class="header">
+            <img class =" img-logo" src="./assets/images/clotheStoreLogo.jpg" alt="Logo">
+            <div class="header-content">
+                 
+                <h1 class="h1-header">Clothes&reg; tu tienda de ropa !!</h1>
+                
+                <nav>
+                    <a href= "index.html">Inicio</a>
+                    <a href= "productos.html">Productos</a>
+                    <a href= "carrito.html">Carrito</a>
+                    <a href= "acercade.html">Nosotros</a>
+                    <a href= "contacto.html">Contacto</a>
 
-        <section class = "category">
-            <h3>Tecnologia</h3>
-            <div class ="product-list">
-            
-                <div class="product">
-                    <img src ="#" alt="laptop">
-                    <h4>LAPTOP</h4>
-                    <P>$1500</P>
-                    <button class="add-to-cart " data-id="1">AÑADIR AL CARRITOO</button>
-                </div>
-
-                <div class="product">
-                    <img src ="#" alt="laptop">
-                    <h4>CELULAR</h4>
-                    <P>$1500</P>
-                    <button class="add-to-cart " data-id="2">AÑADIR AL CARRITOO</button>
-                </div>
+                </nav>
             </div>
-        </section>
+        </header>
 
+        <main class= "products-page" id="main-page">
+
+            <h2>Nuestros Productos</h2>
 
             <section class = "category">
-                <h3>HOGAR</h3>
+                <h3>Para dama</h3>
+                
                 <div class ="product-list">
                 
                     <div class="product">
-                        <img src ="#" alt="laptop">
-                        <h4>LAPTOP</h4>
+                        <img src ="./assets/images/MujerVestido.png" alt="Vestido una pieza">
+                        <h4>Vestido Una Pieza</h4>
                         <P>$1500</P>
-                        <button class="add-to-cart " data-id="3">AÑADIR AL CARRITOO</button>
+                        <button class="add-to-cart " data-id="1">Añadir al carrito</button>
                     </div>
-        
+
                     <div class="product">
-                        <img src ="#" alt="laptop">
-                        <h4>CELULAR</h4>
-                        <P>$1500</P>
-                        <button class="add-to-cart " data-id="4">AÑADIR AL CARRITOO</button>
+                        <img src ="/assets/images/MujerSueter.png" alt="Suéter de Mujer">
+                        <h4>Suéter cuello bajo</h4>
+                        <P>$10400</P>
+                        <button class="add-to-cart " data-id="2">Añadir al carrito</button>
+                    </div>
+                </div>
+            </section>
+
+
+             <section class = "category">
+                <h3>Para caballero</h3>
+                    
+                <div class ="product-list">
+                    
+                    <div class="product">
+                        <img src ="./assets/images/HombreVestidoCompleto.png" alt="Vestido completo caballero">
+                        <h4>Vestido completo informal</h4>
+                        <P>$20000</P>
+                        <button class="add-to-cart " data-id="3">Añadir al carrito</button>
+                    </div>
+            
+                    <div class="product">
+                        <img src ="./assets/images/hombreChaqueta.png" alt="Chaqueta caballero">
+                        <h4>Chaqueta estilos diversos</h4>
+                        <P>$12000</P>
+                        <button class="add-to-cart " data-id="4">Añadir al carrito</button>
                     </div>
                 </div>
             </section>
 
 
             <section class = "category">
-                <h3>DEPORTES</h3>
+                <h3>Accesorios</h3>
                 <div class ="product-list">
+                    
+                    <div class="product">
+                        <img src ="/assets/images/AccesoriosCartera.png" alt="Carteras">
+                        <h4>CARTERA en cuero y cuerina</h4>
+                        <P>$7500</P>
+                        <button class="add-to-cart " data-id="5">Añadir al carrito</button>
+                    </div>
+            
+                    <div class="product">
+                        <img src ="./assets/images/AccesoriosZapatos.png" alt="Zapatos">
+                        <h4>Zapatos dama</h4>
+                        <P>$7800</P>
+                        <button class="add-to-cart " data-id="6">Añadir al carrito</button>
+                    </div>
                 
-                    <div class="product">
-                        <img src ="#" alt="laptop">
-                        <h4>LAPTOP</h4>
-                        <P>$1500</P>
-                        <button class="add-to-cart " data-id="5">AÑADIR AL CARRITOO</button>
-                    </div>
-        
-                    <div class="product">
-                        <img src ="#" alt="laptop">
-                        <h4>CELULAR</h4>
-                        <P>$1500</P>
-                        <button class="add-to-cart " data-id="6">AÑADIR AL CARRITOO</button>
-                    </div>
                 </div>
-        </section>
-    </main>
+            </section>
+        </main>
 
-    <footer class ="footer">
-        <p>2024 bootcamp TIENDA . todos los derechos resvados</p>
-        <div class="footer-links">   
-            <a href = "acerca.html">ACERCA DE </a>
-            <a href = "CONTACO.html">ACERCA DE </a>
-            <a href = "POLITICAS.html">ACERCA DE </a>
-        </div>
-    </footer>
-    <script src = "./assets/js/script.js"></script>
-</body>
+        <footer class="footer">
+            
+            <div class="footer-content"></div>
+                
+                <nav>
+                    <img class =" img-logo-footer" src="./assets/images/clotheStoreLogo.jpg" alt="Logo">
+                    <a href= "index.html">Inicio</a>
+                    <a href= "productos.html">Productos</a>
+                    <a href= "carrito.html">Carrito</a>
+                    <a href= "acercade.html">Nosotros</a>
+                    <a href= "contacto.html">Contacto</a>
+                </nav>
+            </div>
+
+            <div class="footer-end" >
+                
+                <p ><span class= "p-footer">Clothes</span><span id="p-footer">, todos los derechos reservados</span></p></>
+                
+                <section class="footer-redes">
+                    <p>Estamos en las Redes Sociales: </p> 
+                    <img class ="logo-media-footer" src="./assets/images/threSocialMediaLogos.png" alt="Logo">
+                </section>
+                
+                <p class="p-footer1">Dirección: Carrera 51b 90-81, Barranquilla, Colombia, SouthAmérica.  Email info@clothes.com.co. Whatsapp: +(57-1)302 723892 </p>
+            </div>
+        </footer>
+        <script src = "./assets/js/script.js"></script>
+    </body>
 </html>
