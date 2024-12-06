@@ -1,6 +1,5 @@
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
  
- 
 // Manejo de productos dinámico
 const products = [
     { id: 1, name: "Laptop", price: 800, img: "pantalla-de-portatil.png" },
@@ -98,4 +97,3 @@ if (document.querySelector('.cart-items')) {
 if (document.querySelector('.purchase-details')) {
   loadPurchaseDetails();
 }
- 
