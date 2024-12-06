@@ -1,13 +1,12 @@
-<p align="cemter"> # portalEcomerce </p>
-<p align="center"> ## Proyecto final bootcamp  Talento Tec Caribe </p>
-
+#  CLOUD portalEcomerce 
+## Proyecto final bootcamp  Talento Tec Caribe
 ### ANTECEDENTES		
 
 La junta directiva de Clothes ha estado realizando una actividad de reingenieria y replanteamiento de las póliticas  puesto que después del COVID las ventas de la compañía han caído en un 40%. 
 Después de estudiar los resultados de un estudio desarrollado por el grupo de comercialización de la empresa, se estableció que dentro de la políticas de ventas y comercialización se debe  fortalecer el canal virtual por internet, dado que solo existe una página web básica sin ninguna conexión con los procesos de comercialización."							
 En consecuencia, se ha pedido al departamento de TI el desarrollo de un software especializado para internet, el cual debe finalmente convertirse en una plataforma de gestión de productos, clientes e inventarios, en el cual se pueda consultar por los diferentes actores la información que le sea pertinente para determinar y analizar sus ventas, el el caso del departamento comercial, la compras, en el caso de los clientes, análisis de compras e inventario de productos, para la generencia y el departamento compras.
-Una vez estudiado el caso, el departamento de TI presentó una propuesta a la junta directiva en la cual, de manera resumida, indicaba que el sistema total  debía desarrolarse  en pequeños proyectos para un mayor control y obtención efectiva de resultados.
-El proyecto denominado "PortalEComerce" es el primer módulo para desarrollar ese gran proyecto.
+Una vez estudiado el caso, el departamento de TI presentó una propuesta a la junta directiva en la cual, de manera resumida, indicaba que el sistema total  debía desarrolarse  en pequeños proyectos para un mayor control y obtención efectiva de resultados. 
+El proyecto denominado "PortalEComerce" es el primer módulo para desarrollar ese gran proyecto, desarrolldo por el grupo número 170 del BootCamp Talento tech - Caribe.
 
 ### DEFINICIÓN Y OBJETIVOS  DEL PROYECTO
 
@@ -19,8 +18,19 @@ El proyecto denominado "PortalEComerce" es el primer módulo para desarrollar es
     - La navegación del sitio web deberá realizarse a través de las páginas de index.html, productos.html, contacto.htmñ, compra.html carrito.html y acercade.html (about).
     - Las funcionalidades de la toma del pedido, el traspaso de los pedidos al carrito, el cálculo del valor a pagar y el manejo de los productos serán resposabilidad del módulo de Java Script.
   
-### CRONOGRAMA DE TRABAJO
+### CRONOGRAMA DE TRABAJO Y GRUPO DE TRABAJO
 
+durante 7 semanas, cuatro horas diarias se  desarrolló del software siguiendo una metodología rápida, centrada en un trabajo diario de equipo  compuesto por el grupo  Número 170 de estudiantes del Bootcamp,  con la dirección de dos profesores y un monitor.
 
+### DISEÑO PREPARATORIO
+
+Paa efectos de instrucciones de diseño, se preparó en FIGMA un básico con los colores a utilizar. Las páginas tendrán un formato estandard, consistente en :
+- ENCABEZAMIENTO igual para todas las páginas del sitio, consistente en el logo de la compañía, la navegación a las páginas: Inicio, productos, carrito, nosotros, contacto.
+- CUERPO : Con el contenido perteneciente a cada página así:
+  * 
+
+En cada sesío se realizaba la enseñanza y como laboratorio, el desarrollo del código correspondiente a esa enseñanza y relativo al cumplimiento de los objetivos y metas del programa.
+figma
+back
 estructura de las paginas header footer
 diseño - facdioi
