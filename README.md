@@ -50,9 +50,18 @@ El código fuente se encuentra en GitHub, el cual consta de los siguientes direc
   * IMG: Con las imágenes usadas en el sitio, incluída la imágen del diseño básico  de Figma, el caso de uso y el proceso.
   * JS: Con el script para el manejo de las compras.
 
-### FIGURAS Y GRAFICOS
+### CASO DE USO
+   El diagrama de Casos de uso se encuentra en la carpeta assets/images/casosDeUso.jpg
 
-En la carpeta de imágenes se visualiza el caso de uso y los procesos.
+## DIAGRAMA BENERAL DE PROCESOS
+   El diagrama general de procesos se encuentra en la carpeta assets/images/procesos.jpg
+
+## DISEÑO BASICO  FIGMA (mockup colores y estructura)
+   El mockup básico de colores y estructura se encuentra en la carpeta assets/images/disenoBasicoFigma.jpg
 
 
-*********ELABORADO POR RICARDO UMAÑA EL 6/12/2024
+
+
+                                                                                                                     ELaborado por RICARDO UMAÑA GUZMAN  :  6/12/2024
+                                                                                                                                          Actualización 1:  8/12/2024
+                                                                                                                                          
