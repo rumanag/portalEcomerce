@@ -1,6 +1,5 @@
                                                     
-
-#  CLOUD portalEcomerce 
+ #  CLOUD portalEcomerce
 ![logo](/assets/images/clotheStoreLogo.jpg)
 
 ## Proyecto final bootcamp  Talento Tec Caribe
