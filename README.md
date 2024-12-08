@@ -59,11 +59,11 @@ El código fuente se encuentra en GitHub, el cual consta de los siguientes direc
 
 ### DIAGRAMA GENERAL DE PROCESOS
    El diagrama general de procesos se encuentra en la carpeta assets/images/procesos.jpg
-
+   ![Caso de uso](/assets/images/procesos.jpg)
+   
 ### DISEÑO BASICO  FIGMA (mockup colores y estructura)
    El mockup básico de colores y estructura se encuentra en la carpeta assets/images/disenoBasicoFigma.jpg
-
-
+  ![Caso de uso](/assets/images/disenoBasicoFigma.jpg)
 
 
                                                                                                                      ELaborado por RICARDO UMAÑA GUZMAN  :  6/12/2024
