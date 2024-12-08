@@ -55,6 +55,7 @@ El código fuente se encuentra en GitHub, el cual consta de los siguientes direc
 
 ### CASO DE USO
    El diagrama de Casos de uso se encuentra en la carpeta assets/images/casosDeUso.jpg
+   ![Caso de uso](/assets/images/casosDeUso.jpg)
 
 ### DIAGRAMA GENERAL DE PROCESOS
    El diagrama general de procesos se encuentra en la carpeta assets/images/procesos.jpg
