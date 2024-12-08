@@ -1,5 +1,6 @@
 #  CLOUD portalEcomerce 
 ## Proyecto final bootcamp  Talento Tec Caribe
+
 ### ANTECEDENTES		
 
 La junta directiva de Clothes ha estado realizando una actividad de reingenieria y replanteamiento de las póliticas  puesto que después del COVID las ventas de la compañía han caído en un 40%. 
