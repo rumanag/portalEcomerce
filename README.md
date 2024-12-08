@@ -53,10 +53,10 @@ El código fuente se encuentra en GitHub, el cual consta de los siguientes direc
 ### CASO DE USO
    El diagrama de Casos de uso se encuentra en la carpeta assets/images/casosDeUso.jpg
 
-## DIAGRAMA BENERAL DE PROCESOS
+### DIAGRAMA BENERAL DE PROCESOS
    El diagrama general de procesos se encuentra en la carpeta assets/images/procesos.jpg
 
-## DISEÑO BASICO  FIGMA (mockup colores y estructura)
+### DISEÑO BASICO  FIGMA (mockup colores y estructura)
    El mockup básico de colores y estructura se encuentra en la carpeta assets/images/disenoBasicoFigma.jpg
 
 
